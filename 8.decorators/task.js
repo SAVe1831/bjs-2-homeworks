@@ -1,7 +1,7 @@
 'use strict'
 
 //Задача № 1
-function cachingDecoratorNew(func) {
+function cachingDecoratorNew(func){
     let cache = [];
     const maxCacheValuesCount = 5;
     return (...args) => {
